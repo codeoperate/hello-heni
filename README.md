@@ -8,12 +8,12 @@ The lambda function is written in python.  It does a simple task of responding w
 This uses terraform to create the lambda function, a role for its execution and the URL so that the function may be called.
 
 ## Pre-requisits
-terraform cli v 1.3.3
-aws cli 2.8.6.
-AWS Account Free Tier.
-AWS S3 bucket for terraform Statefiles.
-AWS IAM User with full Lambda permissions, iam:CreateRole and write permissions to the S3 bucket.
-AWS IAM Key and Secret for use with terraform cli.
+* terraform cli v 1.3.3
+* aws cli 2.8.6.
+* AWS Account Free Tier.
+* AWS S3 bucket for terraform Statefiles.
+* AWS IAM User with full Lambda permissions, iam:CreateRole and write permissions to the S3 bucket.
+* AWS IAM Key and Secret for use with terraform cli.
 
 ## Usage
 Zip up the python file in HENI-CHALLENGE/hello-heni/hello.py into a hello.zip file in the same folder
