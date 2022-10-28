@@ -1,0 +1,14 @@
+name: TFValidate
+
+on: [push]
+
+jobs:
+  tfvalidate:
+    runs-on: ubuntu-latest
+    steps:
+    - uses hashicorp/setup-terraform@v2
+      with:
+        terraform_version: 1.3.3
+        terraform_wrapper: false
+    - run: terraform init
+    - run: terrafrom validate
