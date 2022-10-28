@@ -24,8 +24,7 @@ Open up a shell prompt at HENI-CHALLENGE/terraform and run the following command
    terraform init
    terraform apply -auto-approve -var-file=inputs.tfvars
 ```
-Open a browser and put this in to the address url:
-    https://3du6n7x6wcbwndwtxuohuuvgsa0jytbe.lambda-url.eu-west-1.on.aws/   
+[Navigate here](https://3du6n7x6wcbwndwtxuohuuvgsa0jytbe.lambda-url.eu-west-1.on.aws/)
 
 ## Contributing
 For any further information or suggetions, please email:
