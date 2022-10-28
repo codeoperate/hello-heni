@@ -11,4 +11,4 @@ jobs:
         terraform_version: 1.3.3
         terraform_wrapper: false
     - run: terraform init
-    - run: terrafrom validate
+    - run: terraform validate
