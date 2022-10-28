@@ -24,7 +24,7 @@ resource "aws_lambda_function" "hello_function" {
   role          = aws_iam_role.lambda_iam.arn
   handler       = "hello.lambda_handler"
 
-  runtime = "python3.7"
+  runtime = "python3.9"
 
   source_code_hash = filebase64sha256(var.package)
 }
